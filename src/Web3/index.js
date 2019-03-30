@@ -73,11 +73,12 @@ App = {
             return UserInfoInstance.userslist(index.toNumber());
             
         }).then(function(data){
+            console.log(data[5].toNumber());
             if (data[5].toNumber() == 3) {
                 window.location.href = "admin-panel.html";
             }
-            else if (data[5].toNumber() == 1) {
-                window.location.href = "admin-panel.html";
+            else if (data[5].toNumber() == 0) {
+                window.location.href = "wholesale-neworder.html";
             }
         })
 

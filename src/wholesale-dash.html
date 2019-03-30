@@ -134,10 +134,10 @@
                     <ul>
                         <li class="menu-title">Main</li>
                         <li class="active">
-                            <a href="admin-panel.html"><i class="fa fa-dashboard"></i> <span>Add User</span></a>
+                            <a href="wholesale-neworder.html"><i class="fa fa-dashboard"></i> <span>New Order</span></a>
                         </li>
 						             <li>
-                            <a href="add-medicine.html"><i class="fa fa-user-md"></i> <span>Add Medicines</span></a>
+                            <a href="wholesale-checkorder.html"><i class="fa fa-user-md"></i> <span>Check Status</span></a>
                         </li>
                     </ul>
                 </div>
@@ -145,71 +145,16 @@
         </div>
 
 
-<!--Middle Screen begins here-->
-        <div class="page-wrapper">
-            <div class="content">
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <h4 class="page-title">Add Medicine</h4>
-                    </div>
-                </div>
-                <div class="row">
-                    <div class="col-lg-8 offset-lg-2">
-                        <form onSubmit="Stack.addmedi();"></form>
-                            <div class="row">
 
-                              <div class="col-sm-6">
-                                  <div class="form-group">
-                                      <label>Manufacturer Name</label>
-                                       <select name = "select" id="select" class="form-control input-sm">
-                                          
-
-                                      </select>
-                                  </div>
-                              </div>
-
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label>Medicine Name<span class="text-danger"></span></label>
-                                        <input id="Name" class="form-control" type="text" required>
-                                    </div>
-                                </div>
-
-                                <div class="col-sm-6">
-                                    <div class="form-group">
-                                        <label>Price <span class="text-danger"></span></label>
-                                        <input id="Price" type="number" class="form-control" required>
-                                    </div>
-                                </div>
-
-
-
-                            </div>
-
-                            <div class="m-t-20 text-center">
-                                <input onclick="extr();" id="btnSubmit" type="button" value="Add Medicine" />
-                            </div>
-                        </form>
-                    </div>
-                </div>
-            </div>
-        <!--Middle Screen ends here-->
-
-
-
-          <div class="sidebar-overlay" data-reff=""></div>
+    <div class="sidebar-overlay" data-reff=""></div>
     <script src="assets/js/jquery-3.2.1.min.js"></script>
-	<script src="assets/js/popper.min.js"></script>
+  <script src="assets/js/popper.min.js"></script>
     <script src="assets/js/bootstrap.min.js"></script>
     <script src="assets/js/jquery.slimscroll.js"></script>
     <script src="assets/js/Chart.bundle.js"></script>
     <script src="assets/js/chart.js"></script>
     <script src="assets/js/app.js"></script>
 
-    <script src="Web3/addmedi.js"></script>
-    <script src="js/truffle-contract.js"></script>
-
-    
 </body>
 
 </html>
