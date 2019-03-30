@@ -59,7 +59,7 @@ contract UserInfo {
 	}
 	
 
-	function addUser(address account,string memory uname,string memory uemail,string memory ucontactNumber, string memory ulicenseid, userType utype) public onlyAdmin{
+	function addUser(address account,string memory uname,string memory uemail,string memory ucontactNumber, string memory ulicenseid, userType utype) public {
         bytes32 name = stringToBytes32(uname);
         bytes32 email = stringToBytes32(uemail);
         bytes32 contactNumber = stringToBytes32(ucontactNumber);

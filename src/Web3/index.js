@@ -76,6 +76,9 @@ App = {
             if (data[5].toNumber() == 3) {
                 window.location.href = "admin-panel.html";
             }
+            else if (data[5].toNumber() == 1) {
+                window.location.href = "admin-panel.html";
+            }
         })
 
     },
